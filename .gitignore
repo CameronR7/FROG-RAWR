@@ -21,3 +21,22 @@ Thumbs.db
 # Env files
 .env
 .env.*.local
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore build directories from PyInstaller
+build/
+dist/
+*.spec
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+
+# Ignore temporary files created by OS
+Thumbs.db
+.DS_Store
+
